@@ -1,0 +1,14 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn ./src/main.ts"
+  },
+  "devDependencies": {
+    "@boostedp/eslint-config": "^1.0.4",
+    "@boostedp/prettier": "^1.0.0",
+    "typescript": "^4.7.3"
+  }
+}
