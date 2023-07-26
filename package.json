@@ -1,16 +1,19 @@
 {
   "name": "typescript-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn ./src/main.ts"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup"
   },
   "devDependencies": {
-    "@boostedp/eslint-config": "^1.1.4",
+    "@boostedp/eslint-config": "^1.2.1",
     "@boostedp/prettier": "^1.0.1",
-    "npm-check-updates": "^16.3.7",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.8.4"
+    "@types/node": "^20.4.5",
+    "npm-check-updates": "^16.10.17",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
   }
 }
