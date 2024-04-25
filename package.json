@@ -8,6 +8,7 @@
     "build": "swc src -d dist"
   },
   "devDependencies": {
+    "@shopify/eslint-plugin": "^44.0.0",
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.5.0",
     "@types/node": "^20.5.1",
