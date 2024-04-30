@@ -10,14 +10,19 @@
     "strictNullChecks": true,
     "skipLibCheck": true,
     "isolatedModules": true,
-    "verbatimModuleSyntax": true,
+    "noImplicitAny": false,
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
       "@/*": [
         "./src/*"
+      ],
+      "@/test/*": [
+        "./test/*"
       ]
     },
-    "noImplicitAny": false,
+    "types": [
+      "vitest/globals"
+    ]
   }
 }
