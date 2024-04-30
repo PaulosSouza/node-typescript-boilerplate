@@ -1,1 +1,5 @@
-const hello = '123';
+function sumTwoNumbers(firstNumber: number, secondNumber: number) {
+  return firstNumber + secondNumber;
+}
+
+export { sumTwoNumbers };
